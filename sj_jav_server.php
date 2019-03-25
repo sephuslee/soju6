@@ -250,7 +250,6 @@ function get_actor_info($entity) {
 }
 
 function trans($str) {
-	return $str;
 	$handle = curl_init();
 	if (FALSE === $handle) {
 		return $str;
