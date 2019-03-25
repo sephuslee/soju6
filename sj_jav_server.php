@@ -248,7 +248,7 @@ function get_actor_info($entity) {
 	}
 	return $entity;
 }
-
+	
 function trans($str) {
 	$handle = curl_init();
 	if (FALSE === $handle) {
