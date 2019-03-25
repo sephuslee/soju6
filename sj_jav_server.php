@@ -252,7 +252,6 @@ function get_actor_info($entity) {
 function trans($str) {
 	$handle = curl_init();
 	if (FALSE === $handle) {
-		return $str;
 	}
 	curl_setopt($handle, CURLOPT_URL,'https://www.googleapis.com/language/translate/v2');
 	curl_setopt($handle, CURLOPT_RETURNTRANSFER, 1);
