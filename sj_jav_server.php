@@ -257,7 +257,7 @@ function trans($str) {
 	curl_setopt($handle, CURLOPT_URL,'https://www.googleapis.com/language/translate/v2');
 	curl_setopt($handle, CURLOPT_RETURNTRANSFER, 1);
 	curl_setopt($handle, CURLOPT_SSL_VERIFYPEER, false);
-	curl_setopt($handle, CURLOPT_POSTFIELDS, array('key'=> 'AIzaSyAeIxLUncRFGKH7GOhJoLBAJlC-Jm-Sc1U', 'q' => $str, 'source' => 'ja', 'target' => 'ko'));
+	curl_setopt($handle, CURLOPT_POSTFIELDS, array('key'=> 'AIzaSyDmRnJerB5nzawxYuBHT5L7dTSrlSux12A', 'q' => $str, 'source' => 'ja', 'target' => 'ko'));
 	curl_setopt($handle,CURLOPT_HTTPHEADER,array('X-HTTP-Method-Override: GET'));
 	$response = curl_exec($handle);
 	$data_array = json_decode($response, true);
