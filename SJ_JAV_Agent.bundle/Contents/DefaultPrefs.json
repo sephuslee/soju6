@@ -1,0 +1,39 @@
+[
+	{
+		"id": "server",
+		"label": "Server:",
+		"type": "text",
+		"default": ""
+	},
+	{
+		"id": "max_num_arts",
+		"label": "Maximum Number of Arts",
+		"type": "enum",
+		"values": [ "1", "3", "5", "10", "ALL"],
+		"default": "1"
+	},
+	{
+		"id": "timeout",
+		"label": "Request timeout",
+		"type": "text",
+		"default": "300"
+	},
+	{
+		"id": "use_collection_release",
+		"label": "Use Collection - Release",
+		"type": "bool",
+		"default": "true"
+	},
+	{
+		"id": "use_collection_series",
+		"label": "Use Collection - Series",
+		"type": "bool",
+		"default": "true"
+	},
+	{
+		"id": "use_collection_label",
+		"label": "Use Collection - Label",
+		"type": "bool",
+		"default": "false"
+	},
+]
